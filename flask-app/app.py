@@ -14,7 +14,7 @@ def index():
         city = request.form['city']
         response = requests.get(f'{BASE_URL}?q={city}&appid={API_KEY}&units=metric')
         if response.status_code == 200:
-            weather_data = response.json()
+            weather_data = response.json(
         else:
             weather_data = {'error': 'City not found!'}
 
