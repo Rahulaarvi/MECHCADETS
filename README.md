@@ -1,2 +1,2 @@
 # MECHCADETS
-Lab JRAR
+Lab JRAR Solution
